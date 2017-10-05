@@ -3,7 +3,7 @@ import React from 'react'
 class Home extends React.Component {
   render() {
     return (
-      <h1>Home</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dL-8y0ph5kw" frameborder="0" allowfullscreen></iframe>
     )
   }
 }
