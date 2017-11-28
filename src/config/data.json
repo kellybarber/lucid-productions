@@ -1,0 +1,12 @@
+{
+  "home" : {
+    "video" : "",
+    "Who We Are" : "",
+    "What We're Doing" : ""
+  },
+  "projects" : {
+    "Now Playing" : {},
+    "Coming Soon" : {}
+  },
+  "team" : {}
+}

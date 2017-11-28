@@ -6,6 +6,7 @@ import Header   from './Header'
 import Home     from './Home'
 import Projects from './Projects'
 import Team     from './Team'
+import Admin    from './Admin'
 
 
 class App extends React.Component {
@@ -14,9 +15,10 @@ class App extends React.Component {
       <div id="App">
         <Header />
         <Switch>
-          <Route path='/' exact component={Home} />
+          <Route path='/'         exact component={Home} />
           <Route path='/projects' component={Projects} />
-          <Route path='/team' component={Team} />
+          <Route path='/team'     component={Team} />
+          <Route path='/admin'    component={Admin} />
         </Switch>
       </div>
     )

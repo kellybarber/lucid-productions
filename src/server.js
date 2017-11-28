@@ -1,13 +1,6 @@
 const express     = require('express')
-const MongoClient = require('mongodb').MongoClient
+const database    = require('./config/db.js')
 const app         = express()
-
-MongoClient.connect('mongodb://localhost:27017/LucidProductions', (err, db) => {
-  if (err) throw err
-  console.log('DB Connected')
-})
-
-
 
 
 

@@ -8,19 +8,15 @@ class Header extends React.Component {
       <header>
         <nav id='Navbar'>
           <div className='NavItem'>
-            <a href='/projects'>
-              Projects
-            </a>
+            <a href='/projects'>Projects</a>
           </div>
           <div className='NavItem'>
             <a href='/'>
-              <img src={Logo} />
+              <img alt="Lucid Productions" src={Logo} />
             </a>
           </div>
           <div className='NavItem'>
-            <a href='/team'>
-              Team
-            </a>
+            <a href='/team'>Team</a>
           </div>
         </nav>
       </header>
