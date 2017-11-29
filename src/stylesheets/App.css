@@ -2,3 +2,13 @@
   border: 25px solid #ffe500;
   height: 100vh
 }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0 5% 0 5%;
+}
+
+.video {
+  grid-column: 1 / 3;
+}
