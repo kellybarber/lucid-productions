@@ -1,6 +1,6 @@
 #App {
   border: 25px solid #ffe500;
-  height: 100vh
+
 }
 
 .wrapper {
@@ -27,7 +27,9 @@
   align-items: center;
   justify-content: center;
 
-  height: 10vw;
   background-color: #ffe500;
-  margin: 15% 20% 15% 20%;
+  margin: 15% auto 15% auto;
+
+  width: 144px;
+  height: 70px;
 }
