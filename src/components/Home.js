@@ -1,4 +1,5 @@
-import React from 'react'
+import React     from 'react'
+import TextBlock from './home-components/TextBlock'
 
 class Home extends React.Component {
   render() {
@@ -8,6 +9,7 @@ class Home extends React.Component {
           <iframe className="video" title="main-media" src="https://www.youtube.com/embed/dL-8y0ph5kw" frameBorder="0" allowFullScreen></iframe>
         </div>
         <div className='donate'>Donate</div>
+        <TextBlock />
       </div>
     )
   }
