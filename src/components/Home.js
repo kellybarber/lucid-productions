@@ -10,6 +10,8 @@ class Home extends React.Component {
         </div>
         <div className='donate'>Donate</div>
         <TextBlock />
+        <TextBlock />
+        <div className='email'>INFO@LUCIDPRODUCTIONS.CA</div>
       </div>
     )
   }

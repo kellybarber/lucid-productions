@@ -33,3 +33,23 @@
   width: 144px;
   height: 70px;
 }
+
+.text-container {
+  grid-column: span 2;
+}
+
+.email {
+  grid-column: 1/5;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+  font-size: 15px;
+  background-color: #222;
+  padding: 21px 34px;
+  margin: 30px auto 30px auto;
+
+
+}
